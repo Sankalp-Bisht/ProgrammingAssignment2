@@ -1,22 +1,22 @@
-makeCacheMatrix <- function(mat = matrix()){
+makeCacheMatrix <- function(mat = matrix()){ ##First Function of Assignment
   
   m=NULL
   
-  set <- function(y) {
+  set <- function(y) { ##set function
       mat <<- y
       m <<- NULL
   }
   
-  get <- function(){
-    mat
+  get <- function(){  ##get function
+    mat               ##mat is the variable for matrix
     }
     
-  setInverse <- function(inverse){
+  setInverse <- function(inverse){ ##Setting Inverse
       
     m <<- inverse
     }
     
-  getInverse <- function(){
+  getInverse <- function(){  ##geting inverse
     m
   }
   
